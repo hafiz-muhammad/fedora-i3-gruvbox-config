@@ -1,0 +1,2 @@
+- To make the scripts executable, run the following in terminal: ```chmod +x ~/.local/bin/SCRIPT_NAME```
+- ```SCRIPT_NAME``` is an example of the name of the script.

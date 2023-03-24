@@ -1,0 +1,65 @@
+#! /bin/sh
+
+# A modified script of: https://github.com/ericmurphyxyz/dotfiles/blob/master/.local/bin/powermenu
+
+# Edit the following paths to match the paths to your conservation mode scripts
+ENABLE_SCRIPT="$HOME/.local/bin/enable-ideapad-conservation-mode"
+DISABLE_SCRIPT="$HOME/.local/bin/disable-ideapad-conservation-mode"
+
+# Function to show notification using dunst
+notify_status() {
+  STATUS="$1"
+  Urgency="$2"
+  Duration="$3"
+  dunstify -u "$Urgency" -a  "Lenovo Conservation Mode" -t "$Duration" "$STATUS" 
+}
+
+# Checks if conservation mode is supported, with conservation mode options hidden if not supported
+if ! ls /sys/bus/platform/drivers/ideapad_acpi/VPC2004:00/conservation_mode >/dev/null 2>&1; then
+  CHOICES=" Lock\n Log Out\n⏾ Suspend\n Hibernate\n Reboot\n⭘ Power Off"
+else
+  CHOICES=" Lock\n Log Out\n⏾ Suspend\n Hibernate\n Reboot\n⭘ Power Off\n Enable Conservation Mode\n Disable Conservation Mode"
+fi
+
+# Show the menu
+chosen=$(printf "$CHOICES" | rofi -dmenu -i -theme-str '@import "power.rasi"')
+
+case "$chosen" in
+" Enable Conservation Mode")
+  # Prompt the user to enter their password using a graphical dialog
+  if ! pkexec "$ENABLE_SCRIPT"; then
+    notify_status "Failed to enable conservation mode" "critical" "10000"
+    exit 1
+  fi
+  notify_status "Conservation mode enabled" "normal" "5000"
+  ;;
+" Disable Conservation Mode")
+  # Prompt the user to enter their password using a graphical dialog
+  if ! pkexec "$DISABLE_SCRIPT"; then
+    notify_status "Failed to disable conservation mode" "critical" "10000"
+    exit 1
+  fi
+  notify_status "Conservation mode disabled" "normal" "5000"
+  ;;
+" Lock")
+  lock
+  ;;
+" Log Out")
+  i3-msg exit
+  ;;
+"⏾ Suspend")
+  systemctl suspend
+  ;;
+" Hibernate")
+  systemctl hibernate
+  ;;
+" Reboot")
+  reboot
+  ;;
+"⭘ Power Off")
+  poweroff
+  ;;
+*)
+  exit 1
+  ;;
+esac
