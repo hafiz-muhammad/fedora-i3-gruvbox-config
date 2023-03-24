@@ -3,6 +3,18 @@
     <img alt="Fedora Badge" src="https://img.shields.io/badge/Fedora-294172?style=for-the-badge&logo=fedora&logoColor=white">
 </h1>
 
+| Fedora i3 Spin screenshot #1 | Fedora i3 Spin screenshot #2 |
+|:------------:|:------------:|
+|  ![i3-1](screenshots/screenshot-1.png) | ![i3-2](screenshots/screenshot-2.png) |
+
+| Polybar |
+|:-------:|
+|  ![polybar](screenshots/polybar-screenshot.png) |
+
+| Rofi | Neofetch |
+|:------------:|:------------:|
+|  ![rofi](screenshots/rofi-screenshot.png) | ![neofetch](screenshots/neofetch-screenshot.png) |
+
 ---
 
 ## Documentations
