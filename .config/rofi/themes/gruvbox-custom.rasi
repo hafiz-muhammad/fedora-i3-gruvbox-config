@@ -1,0 +1,108 @@
+/* 
+ *  Rofi Gruvbox theme
+ *  GitHub: https://github.com/hafiz-muhammad
+ */
+
+*{
+	bg: #282828;
+	bg-alt: #504945;
+	fg: #ebdbb2;
+	red: #fb4934;
+	green: #b8bb26;
+	yellow: #fabd2f;
+	blue: #83a598;
+	purple: #d3869b;
+	teal: #8ec07c;
+	orange: #fe8019;
+	gray: #a89984;
+	
+	background-color: @bg;	
+}
+
+window {
+	width: 55%;
+	orientation: vertical;
+}
+
+mainbox {
+	border: 2px;
+	border-color: @orange;
+	padding: 0;
+	children: [inputbar, wrapper-mode-switcher, listview];
+}
+
+listview {
+	columns: 2;
+	lines: 10;
+	padding: 8 0;
+	fixed-height: 0;
+	fixed-columns: 0;
+	fixed-lines: 0;
+	border: 2px;
+}
+
+inputbar {
+    spacing: 0;
+    padding: 1px ;
+}
+
+entry {
+	placeholder: "Type here";
+	text-color: @fg;
+	padding: 10 10 0 0;
+	margin: 0 -2 0 0;
+}
+
+prompt {
+	text-color: @green;
+	padding: 10 6 0 10;
+	margin: 0 -2 0 0;
+}
+
+wrapper-mode-switcher {
+    orientation: horizontal;
+
+    expand: false;
+    spacing: 0;
+    children: [mode-switcher];
+}
+
+mode-switcher {
+    border: 0px;
+    spacing: 0px;
+    expand: true;
+}
+
+button {
+    padding: 2px;
+    border: 0px 0px 2px ;
+	text-color: @gray;
+}
+button selected.normal {
+    text-color: @orange;
+    background-color: @bg;
+	
+    border: 2px 2px 0px ;
+}
+
+element {
+	padding: 4 12;
+	text-color: @gray;
+}
+
+element selected {
+	background-color: @bg-alt;
+	text-color: @orange;
+}
+
+element-text {
+	background-color: inherit;
+	text-color: inherit;
+}
+
+element-icon {
+	size: 25 px;
+	background-color: inherit;
+	padding: 0 6 0 0;
+	alignment: vertical;
+}
