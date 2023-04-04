@@ -101,6 +101,7 @@ uncomplicated and easy to use.
 - [Lynis](https://github.com/CISOfy/lynis) - Lynis - Security auditing tool for Linux, macOS, and UNIX-based systems. Assists with compliance testing (HIPAA/ISO27001/PCI DSS) and system 
 hardening. Agentless, and installation optional.
 - [rkhunter](https://sourceforge.net/projects/rkhunter/) - Rootkit Hunter, security monitoring and analyzing tool.
+- [Fail2Ban](https://src.fedoraproject.org/rpms/fail2ban) - Fail2Ban scans log files and bans IP addresses that makes too many password failures. It updates firewall rules to reject the IP address. These rules can be defined by the user. Fail2Ban can read multiple log files such as sshd or Apache web server ones.
 
 ## Customization
 - [LXAppearance](https://src.fedoraproject.org/rpms/lxappearance) - LXAppearance is a new GTK+ theme switcher developed for LXDE, the Lightweight X11 Desktop Environment.
@@ -275,6 +276,14 @@ sudo dnf upgrade --refresh
 sudo dnf install clamav clamd clamav-update -y
 sudo systemctl stop clamav-freshclam
 sudo systemctl enable clamav-freshclam --now
+```
+<br>
+
+## Install and Enable Fail2Ban
+```
+sudo dnf install fail2ban
+sudo systemctl start fail2ban
+sudo systemctl enable fail2ban
 ```
 
 <br>
