@@ -224,7 +224,7 @@ sudo dnf install ffmpeg ffmpeg-libs
 
 <br>
 
-## CUPS Installation
+## CUPS Installation and Enabling Service
 You can directly access the Administration section of the web browser interface by going to http://localhost:631/admin.
 ```console
 sudo dnf install cups*
@@ -235,7 +235,7 @@ sudo systemctl enable cups.service
 
 <br>
 
-## TLP Installation
+## TLP Installation and Enabling Service
 [TLP Installation](https://linrunner.de/tlp/installation/fedora.html)
 ```console
 sudo dnf install tlp tlp-rdw
@@ -247,7 +247,7 @@ sudo systemctl mask systemd-rfkill.service systemd-rfkill.socket
 
 <br>
 
-## ZRAM Installation
+## ZRAM Installation and Enabling Service
 ```console
 sudo dnf install zram zram-generator-defaults zram-generator
 sudo systemctl start zram-swap.service
@@ -258,7 +258,7 @@ reboot
 
 <br>
 
-## Install UFW and apply a default restrictive policy.
+## Install and Apply Default Restrictive Policy for UFW
 ```console
 sudo dnf install ufw
 sudo systemctl start ufw.service
@@ -269,7 +269,7 @@ sudo ufw default deny incoming
 
 <br>
 
-## ClamAV Installation
+## ClamAV Installation and Enabling Service
 [How to Install ClamAV on Fedora Linux](https://www.linuxcapable.com/install-clamav-on-fedora-linux/)
 ```console
 sudo dnf upgrade --refresh
@@ -279,7 +279,7 @@ sudo systemctl enable clamav-freshclam --now
 ```
 <br>
 
-## Install and Enable Fail2Ban
+## Fail2Ban Installation and Enabling Service
 ```console
 sudo dnf install fail2ban
 sudo systemctl start fail2ban
