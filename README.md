@@ -70,7 +70,7 @@ keep track of events, appointments, and everyday tasks.
 
 ## Autotiling
 - [autotiling](https://github.com/nwg-piotr/autotiling) - Script for sway and i3 to automatically switch the horizontal / vertical window split orientation
-```bash
+```console
 pip install autotiling==1.8
 ```
 ## Web Browsers
@@ -118,7 +118,7 @@ hardening. Agentless, and installation optional.
 
 #### Gruvbox GTK Theme & Gruvbox Icons Theme
  Install `gtk-murrine-engine`
- ```bash
+ ```console
  sudo dnf install gtk-murrine-engine
  ```
 - [Gruvbox GTK Theme](https://www.xfce-look.org/p/1681313/) - Theme version: Gruvbox-Dark-BL
@@ -185,11 +185,11 @@ to modify the $_ string for at least some of the file names specified.
 
 ## Enable [RPM Fusion](https://rpmfusion.org/) Repositories
 #### Free Repository
-```bash
+```console
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm -y && dnf upgrade -y
 ```
 #### Nonfree Repository
-```bash
+```console
 sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm -y && dnf upgrade -y
 ```
 
@@ -201,14 +201,14 @@ sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfre
 <br>
 
 ## Enable [Flathub](https://flathub.org/home) on Fedora
-```bash
+```console
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
 <br>
 
 ## Thunar and GVFS Installation
-```bash
+```console
 sudo dnf install thunar*
 sudo dnf install gvfs*
 ```
@@ -217,7 +217,7 @@ sudo dnf install gvfs*
 
 ## FFmpeg Installation
 This will also fix laggy video playback in Firefox.
-```bash
+```console
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf install ffmpeg ffmpeg-libs
 ```
@@ -226,7 +226,7 @@ sudo dnf install ffmpeg ffmpeg-libs
 
 ## CUPS Installation
 You can directly access the Administration section of the web browser interface by going to http://localhost:631/admin.
-```bash
+```console
 sudo dnf install cups*
 sudo dnf install system-config-printer
 sudo systemctl start cups.service
@@ -237,7 +237,7 @@ sudo systemctl enable cups.service
 
 ## TLP Installation
 [TLP Installation](https://linrunner.de/tlp/installation/fedora.html)
-```bash
+```console
 sudo dnf install tlp tlp-rdw
 sudo dnf remove power-profiles-daemon
 sudo systemctl start tlp.service
@@ -248,7 +248,7 @@ sudo systemctl mask systemd-rfkill.service systemd-rfkill.socket
 <br>
 
 ## ZRAM Installation
-```bash
+```console
 sudo dnf install zram zram-generator-defaults zram-generator
 sudo systemctl start zram-swap.service
 sudo systemctl start zram-swap.service
@@ -259,7 +259,7 @@ reboot
 <br>
 
 ## Install UFW and apply a default restrictive policy.
-```bash
+```console
 sudo dnf install ufw
 sudo systemctl start ufw.service
 sudo systemctl enable ufw.service
@@ -271,7 +271,7 @@ sudo ufw default deny incoming
 
 ## ClamAV Installation
 [How to Install ClamAV on Fedora Linux](https://www.linuxcapable.com/install-clamav-on-fedora-linux/)
-```bash
+```console
 sudo dnf upgrade --refresh
 sudo dnf install clamav clamd clamav-update -y
 sudo systemctl stop clamav-freshclam
@@ -280,7 +280,7 @@ sudo systemctl enable clamav-freshclam --now
 <br>
 
 ## Install and Enable Fail2Ban
-```
+```console
 sudo dnf install fail2ban
 sudo systemctl start fail2ban
 sudo systemctl enable fail2ban
@@ -294,7 +294,7 @@ sudo systemctl enable fail2ban
 
 #### Procedure
 - Use the dnf utility to install packages that provide multimedia libraries:
-```bash
+```console
 sudo dnf install gstreamer1-plugins-{bad-\*,good-\*,base} gstreamer1-plugin-openh264 gstreamer1-libav --exclude=gstreamer1-plugins-bad-free-devel
 sudo dnf install lame\* --exclude=lame-devel
 sudo dnf group upgrade --with-optional Multimedia
@@ -305,11 +305,11 @@ sudo dnf group upgrade --with-optional Multimedia
 ## Intel - Screen Tearing Fix
 More information on the [ArchWiki](https://wiki.archlinux.org/title/intel_graphics#Tearing).<br>
 Create a configuration file in `/etc/X11/xorg.conf.d` named `20-intel.conf`
-```bash
+```console
 sudo touch /etc/X11/xorg.conf.d/20-intel.conf
 ```
 Add the following to the new configuration file:
-```bash
+```
 Section "Device"
   Identifier "Intel Graphics"
   Driver "Intel"
@@ -325,7 +325,7 @@ Then reboot.
 
 ## NVIDIA - Screen Tearing Fix
 Install `nvidia-settings` and run it as sudo.
-```bash
+```console
 sudo dnf install nvidia-settings && nvidia-settings
 ```
 - Go to **X Server Display Configuration > Advanced**
