@@ -277,6 +277,7 @@ sudo dnf install clamav clamd clamav-update -y
 sudo systemctl stop clamav-freshclam
 sudo systemctl enable clamav-freshclam --now
 ```
+
 <br>
 
 ## Fail2Ban Installation and Enabling Service
@@ -285,6 +286,8 @@ sudo dnf install fail2ban
 sudo systemctl start fail2ban
 sudo systemctl enable fail2ban
 ```
+
+<br>
 
 ## Enable auto-cpufreq Service
 ```console
