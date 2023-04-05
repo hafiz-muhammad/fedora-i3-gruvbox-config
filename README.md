@@ -101,6 +101,7 @@ uncomplicated and easy to use.
 hardening. Agentless, and installation optional.
 - [rkhunter](https://sourceforge.net/projects/rkhunter/) - Rootkit Hunter, security monitoring and analyzing tool.
 - [Fail2Ban](https://src.fedoraproject.org/rpms/fail2ban) - Fail2Ban scans log files and bans IP addresses that makes too many password failures. It updates firewall rules to reject the IP address. These rules can be defined by the user. Fail2Ban can read multiple log files such as sshd or Apache web server ones.
+- [Firejail](https://src.fedoraproject.org/rpms/firejail) - Firejail is a SUID sandbox program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces. It includes a sandbox profile for Mozilla Firefox.
 
 ## Customization
 - [LXAppearance](https://src.fedoraproject.org/rpms/lxappearance) - LXAppearance is a new GTK+ theme switcher developed for LXDE, the Lightweight X11 Desktop Environment.
