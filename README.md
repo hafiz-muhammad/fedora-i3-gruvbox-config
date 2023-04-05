@@ -234,18 +234,6 @@ sudo systemctl enable cups.service
 
 <br>
 
-## TLP Installation and Enabling Service
-[TLP Installation](https://linrunner.de/tlp/installation/fedora.html)
-```console
-sudo dnf install tlp tlp-rdw
-sudo dnf remove power-profiles-daemon
-sudo systemctl start tlp.service
-sudo systemctl enable tlp.service
-sudo systemctl mask systemd-rfkill.service systemd-rfkill.socket
-```
-
-<br>
-
 ## ZRAM Installation and Enabling Service
 ```console
 sudo dnf install zram zram-generator-defaults zram-generator
