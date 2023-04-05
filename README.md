@@ -21,6 +21,8 @@
 - [i3wm Documentation](https://i3wm.org/docs/)
 - [Fedora Documentation](https://docs.fedoraproject.org/en-US/docs/)
 
+<br>
+
 ## Essential Software & Utilities
 - [Picom](https://github.com/yshui/picom) - A lightweight compositor for X11.
 - [Polybar](https://github.com/polybar/polybar) - A fast and easy-to-use status bar. 
@@ -68,14 +70,21 @@ unusually rich command set that provides both high-level operations and full acc
 keep track of events, appointments, and everyday tasks.
 - [wttr.in](https://github.com/chubin/wttr.in) - wttr.in is a console-oriented weather forecast service that supports various information representation methods like terminal-oriented ANSI-sequences for console HTTP clients (curl, httpie, or wget), HTML for web browsers, or PNG for graphical viewers.
 
+<br>
+
 ## Autotiling
 - [autotiling](https://github.com/nwg-piotr/autotiling) - Script for sway and i3 to automatically switch the horizontal / vertical window split orientation
 ```console
 pip install autotiling==1.8
 ```
+
+<br>
+
 ## Web Browsers
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - A free and open-source web browser developed by the Mozilla Foundation. No shady privacy policies or back doors for advertisers. Just a lightning fast browser that doesn’t sell you out.
 - [Brave](https://brave.com/) - The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
+
+<br>
 
 ## Text Editors & IDEs
 - [Helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
@@ -85,12 +94,16 @@ pip install autotiling==1.8
 - [Geany](https://src.fedoraproject.org/rpms/geany) - Geany is a small and fast integrated development environment with basic
 features and few dependencies to other packages or Desktop Environments.
 
+<br>
+
 ## Optimization
 - [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq) - Automatic CPU speed & power optimizer for, Linux based on active 
 monitoring of a laptop's battery state, CPU usage, CPU temperature and 
 system load. Ultimately allowing you to improve battery life without 
 making any compromises.
 - [ZRAM](https://src.fedoraproject.org/rpms/zram) - ZRAM is a Linux block device that can be used for compressed swap in memory. It's useful in memory constrained devices. This provides a service to setup ZRAM as a swap device based on criteria such as available memory.
+
+<br>
 
 ## Essential Security Utilities
 - [UFW](https://src.fedoraproject.org/rpms/ufw) - Ufw stands for Uncomplicated Firewall, and is program for managing a netfilter firewall. It provides a command line interface and aims to be 
@@ -102,6 +115,8 @@ hardening. Agentless, and installation optional.
 - [rkhunter](https://sourceforge.net/projects/rkhunter/) - Rootkit Hunter, security monitoring and analyzing tool.
 - [Fail2Ban](https://src.fedoraproject.org/rpms/fail2ban) - Fail2Ban scans log files and bans IP addresses that makes too many password failures. It updates firewall rules to reject the IP address. These rules can be defined by the user. Fail2Ban can read multiple log files such as sshd or Apache web server ones.
 - [Firejail](https://src.fedoraproject.org/rpms/firejail) - Firejail is a SUID sandbox program that reduces the risk of security breaches by restricting the running environment of untrusted applications using Linux namespaces. It includes a sandbox profile for Mozilla Firefox.
+
+<br>
 
 ## Customization
 - [LXAppearance](https://src.fedoraproject.org/rpms/lxappearance) - LXAppearance is a new GTK+ theme switcher developed for LXDE, the Lightweight X11 Desktop Environment.
@@ -124,6 +139,8 @@ hardening. Agentless, and installation optional.
 - [Gruvbox GTK Theme](https://www.xfce-look.org/p/1681313/) - Theme version: Gruvbox-Dark-BL
 - [Gruvbox Icons Theme](https://www.xfce-look.org/p/1681460/) - Icon pack version: Gruvbox-Dark
 
+<br>
+
 ## System Monitoring and Information Utilities
 - [htop](https://github.com/htop-dev/htop) - An interactive process viewer.     
 - [btop](https://github.com/aristocratos/btop) - A monitor of resources
@@ -134,11 +151,15 @@ access and hardware monitoring.
 - [Smartctl](https://fedoraproject.org/wiki/Smartctl) - This is a fault monitoring and testing interface that can be quite useful, both as a way to monitor the health of your disks and test them.
 - [Neofetch](https://github.com/dylanaraps/neofetch) - A command-line system information tool written in bash 3.2+
 
+<br>
+
 ## Media Players & Utilities
 - [VLC](https://www.videolan.org/vlc/) - VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols.                
 - [Lollypop](https://src.fedoraproject.org/rpms/lollypop) - A GNOME music playing application.
 - [Moosync](https://github.com/Moosync/Moosync) - A simple music player capable of playing local audio or from Youtube or Spotify.
 - [Playerctl](https://github.com/altdesktop/playerctl) - Playerctl is a command-line utility and library for controlling media players that implement the MPRIS D-Bus Interface Specification.
+
+<br>
 
 ## Wine
 - [Wine](https://www.winehq.org/) - Wine (originally an acronym for "Wine Is Not an Emulator") is a 
@@ -150,7 +171,9 @@ eliminating the performance and memory penalties of other methods and
 allowing you to cleanly integrate Windows applications into your 
 desktop.
 - [Winetricks](https://github.com/Winetricks/winetricks) - Winetricks is an easy way to work around problems in Wine.
-      
+
+<br>
+
 ## Other Software & Utilities
 - [KeePassXC](https://keepassxc.org/) - A Cross-Platform Password Manager
 - [VeraCrypt](https://www.veracrypt.fr/en/Home.html) - VeraCrypt is a free open source disk encryption software for Windows, Mac OSX and Linux.
@@ -181,7 +204,7 @@ It includes the key desktop applications, such as a word processor, spreadsheet,
 the first argument. The argument is a Perl expression which is expected
 to modify the $_ string for at least some of the file names specified.
 
-<br>
+---
 
 ## Enable [RPM Fusion](https://rpmfusion.org/) Repositories
 #### Free Repository
