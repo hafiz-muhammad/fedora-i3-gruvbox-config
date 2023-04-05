@@ -86,7 +86,6 @@ pip install autotiling==1.8
 features and few dependencies to other packages or Desktop Environments.
 
 ## Optimization
-- [TLP](https://linrunner.de/tlp/) - Optimize Linux Laptop Battery Life
 - [auto-cpufreq](https://github.com/AdnanHodzic/auto-cpufreq) - Automatic CPU speed & power optimizer for, Linux based on active 
 monitoring of a laptop's battery state, CPU usage, CPU temperature and 
 system load. Ultimately allowing you to improve battery life without 
