@@ -286,6 +286,12 @@ sudo systemctl start fail2ban
 sudo systemctl enable fail2ban
 ```
 
+## Enable auto-cpufreq Service
+```console
+sudo systemctl start auto-cpufreq
+sudo systemctl enable auto-cpufreq
+```
+
 <br>
 
 ## [Installing Plugins For Playing Movies and Music](https://docs.fedoraproject.org/en-US/quick-docs/assembly_installing-plugins-for-playing-movies-and-music/)
