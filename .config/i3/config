@@ -135,7 +135,7 @@ bindsym $mod+d exec rofi -show drun
 # Toggle inner and outer gaps
 bindsym $mod+o gaps inner current set 0; gaps outer current set 0
 bindsym $mod+p gaps inner current set 10; gaps outer current set 10
-bindsym $mod+shift+p gaps inner current set 15; gaps outer current set 0
+bindsym $mod+shift+p gaps inner current set 25; gaps outer current set 50
 bindsym $mod+shift+o gaps inner current set 20; gaps outer current set 120
 
 #####################################################################################################################
