@@ -129,6 +129,7 @@ hardening. Agentless, and installation optional.
 - [Nitrogen](https://src.fedoraproject.org/rpms/nitrogen) - Background browser and setter for X windows.
 - [Nerd Fonts](https://www.nerdfonts.com/) - Iconic font aggregator, collection, & patcher.
 - [Oh My Posh](https://ohmyposh.dev/) - A prompt theme engine for any shell.
+  - Oh My Posh theme: [gruvbox](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/gruvbox.omp.json)
 - [Starship](https://starship.rs/) - The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 #### Gruvbox GTK Theme & Gruvbox Icons Theme
