@@ -226,6 +226,7 @@ sudo dnf install https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfre
 
 ## Enable [Flathub](https://flathub.org/home) on Fedora
 ```console
+dnf install flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
