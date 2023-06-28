@@ -304,6 +304,9 @@ sudo systemctl enable fail2ban
 
 ## Enable auto-cpufreq Service
 ```console
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && sudo ./auto-cpufreq-installer
+sudo auto-cpufreq --install
 sudo systemctl start auto-cpufreq
 sudo systemctl enable auto-cpufreq
 ```
