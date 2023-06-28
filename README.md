@@ -36,7 +36,6 @@ supported. It finds all outputs on the X server supporting backlight brightness 
 - [NetworkManager](https://src.fedoraproject.org/rpms/NetworkManager) - A system service that manages network interfaces and connections based on user or automatic configuration.
 - [nm-connection-editor](https://rpmfind.net/linux/rpm2html/search.php?query=nm-connection-editor&submit=Search+...&system=&arch=) - A network connection configuration editor for NetworkManager.
 - [nm-connection-editor-desktop](https://rpmfind.net/linux/rpm2html/search.php?query=nm-connection-editor-desktop&submit=Search+...&system=&arch=) - The desktop file for nm-connection-editor.
-- [PulseAudio](https://src.fedoraproject.org/rpms/pulseaudio) - PulseAudio is a sound server for Linux and other Unix like operating systems. It is intended to be an improved drop-in replacement for the Enlightened Sound Daemon (ESOUND).
 - [pavucontrol](https://src.fedoraproject.org/rpms/pavucontrol) - PulseAudio Volume Control (pavucontrol) is a simple GTK based volume control tool ("mixer") for the PulseAudio sound server. In contrast to classic mixer tools this one allows you to control both the volume of hardware devices and of each playback stream separately.
 - [Thunar](https://src.fedoraproject.org/rpms/Thunar) - A modern file manager for the Xfce Desktop Environment.
   - [gvfs](https://src.fedoraproject.org/rpms/gvfs) - The gvfs package provides backend implementations for the gio framework in GLib. It includes ftp, sftp, cifs.
