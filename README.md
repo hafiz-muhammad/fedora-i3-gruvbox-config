@@ -74,7 +74,7 @@ keep track of events, appointments, and everyday tasks.
 ## Autotiling
 - [autotiling](https://github.com/nwg-piotr/autotiling) - Script for sway and i3 to automatically switch the horizontal / vertical window split orientation
 ```console
-pip install autotiling==1.8
+pip install autotiling
 ```
 
 <br>
