@@ -124,6 +124,12 @@ hardening. Agentless, and installation optional.
     - Size: 10
     - Style: Regular
 
+- [gruvbox-plus-icon-pack](https://github.com/SylEleuth/gruvbox-plus-icon-pack) - Gruvbox Plus icon pack for Linux desktops based on Gruvbox color theme.
+- [Gruvbox Plus theme for GTK2 and GTK3](https://github.com/SylEleuth/gruvbox-plus-gtk) - Gruvbox+ dark theme for GTK2 and GTK3.
+
+
+
+
 - [feh](https://github.com/derf/feh) - feh is a light-weight, configurable and versatile image viewer.
 - [Nitrogen](https://src.fedoraproject.org/rpms/nitrogen) - Background browser and setter for X windows.
 - [Nerd Fonts](https://www.nerdfonts.com/) - Iconic font aggregator, collection, & patcher.
