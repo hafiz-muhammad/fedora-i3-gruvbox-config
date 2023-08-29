@@ -130,14 +130,6 @@ hardening. Agentless, and installation optional.
 - [Oh My Posh](https://ohmyposh.dev/) - A prompt theme engine for any shell.
   - Oh My Posh theme: [gruvbox](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/gruvbox.omp.json)
 
-#### Gruvbox GTK Theme & Gruvbox Icons Theme
- Install `gtk-murrine-engine`
- ```console
- sudo dnf install gtk-murrine-engine
- ```
-- [Gruvbox GTK Theme](https://www.xfce-look.org/p/1681313/) - Theme version: Gruvbox-Dark-BL
-- [Gruvbox Icons Theme](https://www.xfce-look.org/p/1681460/) - Icon pack version: Gruvbox-Dark
-
 <br>
 
 ## System Monitoring and Information Utilities
