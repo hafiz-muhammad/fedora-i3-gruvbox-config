@@ -379,4 +379,23 @@ Set the maximum number of simultaneous package downloads: ```max_parallel_downlo
 sudo dnf upgrade --refresh -y
 ```
 
+<br> 
+
+## Force ALSA to Detect All Available Audio Devices
+
+**1.** Open a terminal and run the following command to check the name of the sound card driver.
+```console
+cat /proc/asound/modules 
+```
+
+**2.** Open a terminal and type the following command:
+```console 
+sudo nano /etc/modprobe.d/alsa-base.conf
+```
+
+**3.** Add the following line at the end of the file: ```options <driver_name> probe_mask=1```. Replace <driver_name> with the name of your sound card driver.
+
+**4.** Save the file and exit the editor.
+
+**5.** Reboot the system.
 
