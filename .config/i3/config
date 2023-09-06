@@ -242,6 +242,12 @@ bindsym $mod+Shift+k move down
 bindsym $mod+Shift+l move up
 bindsym $mod+Shift+semicolon move right
 
+# alternatively, you can use the cursor keys:
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
+
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
@@ -260,16 +266,6 @@ bindsym $mod+h split h
 
 # split in vertical orientation
 bindsym $mod+v split v
-
-#####################################################################################################################
-#################                             Move Window                                           #################
-#####################################################################################################################
-
-# alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
 
 #####################################################################################################################
 #################                             Resize Window                                         #################
