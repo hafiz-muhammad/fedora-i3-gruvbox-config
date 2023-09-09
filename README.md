@@ -100,6 +100,7 @@ monitoring of a laptop's battery state, CPU usage, CPU temperature and
 system load. Ultimately allowing you to improve battery life without 
 making any compromises.
 - [ZRAM](https://src.fedoraproject.org/rpms/zram) - ZRAM is a Linux block device that can be used for compressed swap in memory. It's useful in memory constrained devices. This provides a service to setup ZRAM as a swap device based on criteria such as available memory.
+- [profile-sync-daemon](https://src.fedoraproject.org/rpms/profile-sync-daemon) - Symlinks and syncs browser profile dirs to RAM thus reducing HDD/SDD calls and speeding-up browsers.
 
 <br>
 
