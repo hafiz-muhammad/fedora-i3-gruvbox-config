@@ -81,7 +81,6 @@ pip install autotiling
 
 ## Web Browsers
 - [Firefox](https://www.mozilla.org/en-US/firefox/new/) - A free and open-source web browser developed by the Mozilla Foundation. No shady privacy policies or back doors for advertisers. Just a lightning fast browser that doesn’t sell you out.
-- [Brave](https://brave.com/) - The Brave browser is a fast, private and secure web browser for PC, Mac and mobile.
 
 <br>
 
