@@ -399,3 +399,39 @@ sudo nano /etc/modprobe.d/alsa-base.conf
 
 **5.** Reboot the system.
 
+<br>
+
+## How to Install and Configure profile-sync-daemon
+More information on the [ArchWiki](https://wiki.archlinux.org/title/Profile-sync-daemon) and [OSTechNix](https://ostechnix.com/how-to-sync-browser-profile-into-tmpfs-ram-in-linux/).
+
+
+**1.** Install profile-sync-daemon:
+```console
+sudo dnf install profile-sync-daemon
+```
+
+**2.** Create Psd configuration file by running the following command:
+```console
+psd
+```
+
+**3.** Edit psd configuration file:
+```console
+nano ~/.config/psd/psd.conf
+```
+Look for the line labeled **BROWSERS** in the configuration file, remove the **#** symbol to uncomment it, and then include your browsers separated by spaces. Example: BROWSERS=(chromium firefox)
+
+
+**4.** Enable and Start psd Service:
+```console
+systemctl --user enable psd
+```
+
+```console
+systemctl --user start psd
+```
+
+**5.** Verify psd Service is Started or Not:
+```console
+systemctl --user status psd
+```
