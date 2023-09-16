@@ -153,7 +153,6 @@ access and hardware monitoring.
 ## Media Players & Utilities
 - [VLC](https://www.videolan.org/vlc/) - VLC is a free and open source cross-platform multimedia player and framework that plays most multimedia files, and various streaming protocols.                
 - [Lollypop](https://src.fedoraproject.org/rpms/lollypop) - A GNOME music playing application.
-- [Moosync](https://github.com/Moosync/Moosync) - A simple music player capable of playing local audio or from Youtube or Spotify.
 - [Playerctl](https://github.com/altdesktop/playerctl) - Playerctl is a command-line utility and library for controlling media players that implement the MPRIS D-Bus Interface Specification.
 
 <br>
