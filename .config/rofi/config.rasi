@@ -7,7 +7,7 @@ configuration {
 	location: 0;
 	font: "FiraCode Nerd Font 12";
 	show-icons: true;
-	icon-theme: "Gruvbox-Dark";
+	icon-theme: "Gruvbox Plus Dark";
 	terminal: "alacritty";
 }
 
