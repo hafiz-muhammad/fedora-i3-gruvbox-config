@@ -423,7 +423,11 @@ Look for the line labeled **BROWSERS** in the configuration file, remove the **#
 
 **4.** Enable and Start psd Service:
 ```console
-systemctl --user enable psd
+systemctl --user enable psd 
+```
+
+```console
+reboot
 ```
 
 ```console
