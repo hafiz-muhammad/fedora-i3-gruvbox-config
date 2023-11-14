@@ -85,7 +85,6 @@ pip install autotiling
 <br>
 
 ## Text Editors & IDEs
-- [Helix](https://github.com/helix-editor/helix) - A post-modern modal text editor.
 - [nano](https://www.nano-editor.org/) - GNU nano is a small editor for on the terminal.
 - [VSCodium](https://vscodium.com/) - Binary releases of VS Code without MS branding/telemetry/licensing.
   - [Gruvbox Theme](https://open-vsx.org/extension/jdinhlife/gruvbox) - Color Theme: Gruvbox Dark Medium
