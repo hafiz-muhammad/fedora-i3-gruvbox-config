@@ -145,7 +145,6 @@ hardening. Agentless, and installation optional.
 access and hardware monitoring.
 - [collectl](https://src.fedoraproject.org/rpms/collectl) - A utility to collect Linux performance data.
 - [Smartctl](https://fedoraproject.org/wiki/Smartctl) - This is a fault monitoring and testing interface that can be quite useful, both as a way to monitor the health of your disks and test them.
-- [Neofetch](https://github.com/dylanaraps/neofetch) - A command-line system information tool written in bash 3.2+
 
 <br>
 
