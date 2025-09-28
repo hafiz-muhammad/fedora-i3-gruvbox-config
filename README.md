@@ -1,1 +1,1 @@
-# This repository has been merged with [myconfigs](https://github.com/hafiz-muhammad/myconfigs)
+# This repository has been merged with [configs](https://github.com/hafiz-muhammad/configs)
